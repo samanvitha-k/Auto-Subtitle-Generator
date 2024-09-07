@@ -179,4 +179,4 @@ def generate_subtitles():
         return jsonify({'error': 'Failed to process video.'}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True)   
