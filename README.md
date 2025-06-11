@@ -83,8 +83,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 If you have any questions or issues with the project, feel free to reach out:
 
-- GitHub: your-username
-- Email: your-email@example.com
+- GitHub: samanvitha-k
+- Email: samanvitha.0486@gmail.com
 
 
 
