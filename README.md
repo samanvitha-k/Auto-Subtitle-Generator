@@ -30,7 +30,7 @@ This Flask-based web application allows users to upload a video, extract silent 
 1. Clone the repository:
 ```bash
  git clone https://github.com/samanvitha-k/Auto-Subtitle-Generator.git
-cd Auto-Subtitle-Generator
+ cd Auto-Subtitle-Generator
 ```
 2. Install the python packages:
 ```bash
