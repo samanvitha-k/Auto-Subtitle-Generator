@@ -23,7 +23,7 @@ This Flask-based web application allows users to upload a video, extract silent 
 
 ### Prerequisites
 - Python 3.8 or higher
-- `ffmpeg` installed on your system (used for video-to-audio conversion)
+- 'ffmpeg' installed on your system (used for video-to-audio conversion)
 
 ### Steps
 
@@ -41,10 +41,11 @@ cd Auto-Subtitle-Generator
 4. Install ffmpeg :
 
 - For Windows:
-  ```bash
   Download from FFmpeg official website, and add it to your system's PATH.
+  ```bash
   pip install ffmpeg
-```
+  ```
+
 
 4. Start the application:
   python app.py
@@ -58,7 +59,7 @@ cd Auto-Subtitle-Generator
 ## Usage
 - Open your browser and navigate to http://127.0.0.1:5000/.
 - Upload a video file through the form.
-- Wait for the app to process the video:
+- Wait for the app to process the video.
 - It extracts audio from the video.
 - Detects silent periods in the audio.
 - Transcribes the audio to generate subtitles using the Whisper model.
@@ -67,9 +68,7 @@ cd Auto-Subtitle-Generator
 
 ## Web Interface
 - The app includes an HTML page for uploading video files.
-- It also uses CSS for basic styling and JavaScript for handling client-side operations and interaction with the    server.
-
-
+- It also uses CSS for basic styling and JavaScript for handling client-side operations and interaction with the server.
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -88,14 +87,3 @@ If you have any questions or issues with the project, feel free to reach out:
 
 - GitHub: samanvitha-k
 - Email: samanvitha.0486@gmail.com
-
-
-
-
-
-
-
-
-
-
-
