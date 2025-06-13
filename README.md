@@ -28,26 +28,30 @@ This Flask-based web application allows users to upload a video, extract silent 
 ### Steps
 
 1. Clone the repository:
-
+```bash
 - git clone https://github.com/samanvitha-k/Auto-Subtitle-Generator.git
 - cd Auto-Subtitle-Generator
-
+```
 2. Install the python packages:
+```bash
    pip install -r requirements.txt
+```
 
 
-3. Install ffmpeg :
+4. Install ffmpeg :
 
-- For Ubuntu :
-  sudo apt update
-  sudo apt install ffmpeg
-
-- For Windows: 
+- For Windows:
+  ```bash
   Download from FFmpeg official website, and add it to your system's PATH.
+  pip install ffmpeg
+```
 
 4. Start the application:
+```bash
   python app.py
+```
 - The application will run locally at http://127.0.0.1:5000/.
+
 
 - Optional GPU Support:
    If you have a CUDA-compatible GPU and PyTorch installed with CUDA, the application will automatically utilize GPU acceleration for faster model inference.
