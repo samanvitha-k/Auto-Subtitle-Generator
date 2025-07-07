@@ -15,7 +15,7 @@ This Flask-based web application allows users to upload a video, extract silent 
 - Upload video files and extract audio.
 - Detect silent periods in audio and extract frames from those periods.
 - Transcribe audio using Whisper model to generate subtitles.
-- Generate image captions for frames extracted during silent periods using a whisper model.
+- Generate image captions for frames extracted during silent periods using a Vision Transformer GPT2 model.
 - Combine audio transcriptions and image captions into a single SRT file for download.
 - A user-friendly web interface built with HTML, CSS, and JavaScript.
 
